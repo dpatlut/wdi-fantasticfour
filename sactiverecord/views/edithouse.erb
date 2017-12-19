@@ -1,0 +1,14 @@
+<form method="post" action="/houses/<%= @house.id %>/edit">
+	<input id="hidden" type="hidden" name="_method" value="put">
+	<input type="text" name="name" value="<%= @house.name %>">
+	<input type="text" name="region" value="<%= @house.region %>">
+	<input type="text" name="sigil_url" value="<%= @house.sigil_url %>">
+	<input id="submit" type ="submit" value="Edit House">
+</form>
+
+<form method="post" action="/houses/<%= @house.id %>/delete">
+		<input id="hidden" type="hidden" name="_method" value="delete">
+	    <input id="submit" type ="submit" value="Delete House">
+</form>
+
+

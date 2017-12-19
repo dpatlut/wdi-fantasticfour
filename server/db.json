@@ -1,0 +1,25 @@
+{
+  "counter": {
+    "count": 2
+  },
+  "movies": [
+    {
+      "id": "1",
+      "movie": {
+        "Title": "Star Wars: Episode IV - A New Hope",
+        "Year": "1977",
+        "Rated": "PG",
+        "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDk2NmNhZDgtZDgzZS00NTRkLWFiYjUtNGMzZTYwNTFhYjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "movie": {
+        "Title": "Police Academy",
+        "Year": "1984",
+        "Rated": "R",
+        "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      }
+    }
+  ]
+}

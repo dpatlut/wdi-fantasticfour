@@ -1,0 +1,12 @@
+<form action="/" method="POST">
+  <input name="query"/>
+  <button>Search</button>
+</form>
+
+
+<% if @books %>
+	<p>Title:<%= title %> </p>
+	<p>Author:<%= author %> </p>
+	<p><img src= <%= image %> > </p>
+	<p><a href= <%= link %> ></a> </p>
+<% end %>

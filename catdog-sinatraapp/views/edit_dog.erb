@@ -1,0 +1,15 @@
+<h2>Edit Dog</h2>
+
+
+<form method="post" action="/dogs/<%= @dog.id %>"> 
+	<input id="hidden" type="hidden" name="_method" value="delete">
+	<button type="submit">Delete Dog</button>
+</form>
+
+<form method="post" action="/dogs/<%= @dog.id %>"> 
+	<input id="hidden" type="hidden" name="_method" value="put">
+    <input type="text" name="name" value="<%= @dog.name %>">
+    <input type="text" name="owner_id" value="<%= @dog.owner_id %>">
+    <button type="submit">Update Dog</button>
+</form>
+

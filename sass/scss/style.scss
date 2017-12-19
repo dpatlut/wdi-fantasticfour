@@ -1,0 +1,10 @@
+
+@import 'button';
+
+$default-blue: #0E0EFF;
+$default-red: #FF0;
+
+  body {
+    background-color:$default-blue;
+    color:$default-red;
+  }

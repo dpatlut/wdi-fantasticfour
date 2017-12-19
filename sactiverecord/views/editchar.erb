@@ -1,0 +1,7 @@
+<form method="post" action="/characters/<%= @char.id %>/edit">
+	<input id="hidden" type="hidden" name="_method" value="put">
+	<input type="text" name="name" value="<%= @char.name %>">
+	<input type="text" name="house_id" value="<%= @char.house_id %>">
+	<input type="text" name="image_url" value="<%= @char.image_url %>">
+	<input id="submit" type ="submit" value="Edit Character">
+</form>
